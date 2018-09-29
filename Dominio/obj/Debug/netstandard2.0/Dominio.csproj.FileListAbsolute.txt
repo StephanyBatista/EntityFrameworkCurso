@@ -1,0 +1,9 @@
+/home/stephany/Documents/Source/EfCore/Dominio/bin/Debug/netstandard2.0/Dominio.deps.json
+/home/stephany/Documents/Source/EfCore/Dominio/bin/Debug/netstandard2.0/Dominio.dll
+/home/stephany/Documents/Source/EfCore/Dominio/bin/Debug/netstandard2.0/Dominio.pdb
+/home/stephany/Documents/Source/EfCore/Dominio/obj/Debug/netstandard2.0/Dominio.csprojAssemblyReference.cache
+/home/stephany/Documents/Source/EfCore/Dominio/obj/Debug/netstandard2.0/Dominio.csproj.CoreCompileInputs.cache
+/home/stephany/Documents/Source/EfCore/Dominio/obj/Debug/netstandard2.0/Dominio.AssemblyInfoInputs.cache
+/home/stephany/Documents/Source/EfCore/Dominio/obj/Debug/netstandard2.0/Dominio.AssemblyInfo.cs
+/home/stephany/Documents/Source/EfCore/Dominio/obj/Debug/netstandard2.0/Dominio.dll
+/home/stephany/Documents/Source/EfCore/Dominio/obj/Debug/netstandard2.0/Dominio.pdb

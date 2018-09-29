@@ -1,0 +1,12 @@
+/home/stephany/Documents/Source/EfCore/Dados/bin/Debug/netstandard2.0/Dados.deps.json
+/home/stephany/Documents/Source/EfCore/Dados/bin/Debug/netstandard2.0/Dados.dll
+/home/stephany/Documents/Source/EfCore/Dados/bin/Debug/netstandard2.0/Dados.pdb
+/home/stephany/Documents/Source/EfCore/Dados/obj/Debug/netstandard2.0/Dados.csprojAssemblyReference.cache
+/home/stephany/Documents/Source/EfCore/Dados/obj/Debug/netstandard2.0/Dados.csproj.CoreCompileInputs.cache
+/home/stephany/Documents/Source/EfCore/Dados/obj/Debug/netstandard2.0/Dados.AssemblyInfoInputs.cache
+/home/stephany/Documents/Source/EfCore/Dados/obj/Debug/netstandard2.0/Dados.AssemblyInfo.cs
+/home/stephany/Documents/Source/EfCore/Dados/obj/Debug/netstandard2.0/Dados.dll
+/home/stephany/Documents/Source/EfCore/Dados/obj/Debug/netstandard2.0/Dados.pdb
+/home/stephany/Documents/Source/EfCore/Dados/bin/Debug/netstandard2.0/Dominio.dll
+/home/stephany/Documents/Source/EfCore/Dados/bin/Debug/netstandard2.0/Dominio.pdb
+/home/stephany/Documents/Source/EfCore/Dados/obj/Debug/netstandard2.0/Dados.csproj.CopyComplete
