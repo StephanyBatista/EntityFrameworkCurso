@@ -3,14 +3,16 @@ using Dados;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Dados.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180929200957_AlterandoDominio")]
+    partial class AlterandoDominio
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,14 +45,13 @@ namespace Dados.Migrations
 
                     b.Property<int>("CategoriaId");
 
-                    b.Property<string>("Nome")
-                        .HasMaxLength(50);
+                    b.Property<string>("Nome");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CategoriaId");
 
-                    b.ToTable("Produto");
+                    b.ToTable("Produtos");
                 });
 
             modelBuilder.Entity("Dominio.Entidades.Produto", b =>

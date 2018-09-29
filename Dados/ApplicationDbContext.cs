@@ -14,6 +14,12 @@ namespace Dados
             optionsBuilder.UseLazyLoadingProxies();
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Produto>().ToTable("Produto");
+            modelBuilder.Entity<Produto>().Property(p => p.Nome).HasMaxLength(50);
+        }
+
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Produto> Produtos { get; set; }
     }
