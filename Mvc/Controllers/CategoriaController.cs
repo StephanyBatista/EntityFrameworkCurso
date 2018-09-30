@@ -53,6 +53,7 @@ namespace Mvc.Controllers
             else{
                 var categoriaJaSalva = _contexto.Categorias.First(c => c.Id == modelo.Id);
                 categoriaJaSalva.Nome = modelo.Nome;
+                categoriaJaSalva.PermiteEstoque = modelo.PermiteEstoque;
             }
             await _contexto.SaveChangesAsync();
             return RedirectToAction("Index");

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Dados;
@@ -18,9 +19,14 @@ namespace Mvc.Controllers
 
         public IActionResult Index()
         {
-            var produtos = _contexto.Produtos.ToList();
+            var queryDeProduto = _contexto.Produtos
+                .Where(p => p.Ativo && p.Categoria.PermiteEstoque)
+                .OrderBy(p => p.Nome);
+
+            if(!queryDeProduto.Any())
+                return View(new List<Produto>());
             
-            return View(produtos);
+            return View(queryDeProduto.ToList());
         }
         
         [HttpGet]
